@@ -1,0 +1,60 @@
+.paises{
+    font-family: var(--fonte-principal);
+    color: var(--azul);
+    font-weight: 500;
+    text-align: center;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+.swiper-button-prev,
+.swiper-button-next{
+    display: none;
+}
+.swiper-pagination{
+    position: initial;
+    margin: 0.5em 0;
+}
+.card__descrição{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.botões{
+    display: flex;
+}
+.card{
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+.descrição__titulo{
+    text-align: center;
+    color: var(--laranja);
+    font-weight: 700;
+    font-family: var(--fonte-principal);
+    margin: 0.5em;
+}
+.descrição__titulo-livro{
+    text-align: center;
+    color: var(--azul);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--fonte-principal);
+    margin: 1em;
+}
+.descrição__texto{
+    font-size: 14px;
+    font-family: var(--fonte-principal);
+}
+.descrição__imagem{
+    width: 150px;
+    height: 150px;
+}
+.imagem{
+    width: 220px;
+}

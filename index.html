@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Próxima parada</title>
+        <link rel="icon" type="imagem/viagem (1).png" href="imagem/viagem.png"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css"> 
+    </head>
+    <body>
+        <header class="cabeçalho">
+            <div class="container">
+                <input type="checkbox" id="menu" class="cabeçalho-botão">
+                <label for="menu">
+                    <span class="cabeçalho-menu"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-titulo">Categorias</li>
+                    <li class="lista-item">
+                        <a href="#" class="lista-link">América</a>
+                    </li>
+                    <li class="lista-item">
+                        <a href="#" class="lista-link">Europa</a>
+                    </li>
+                    <li class="lista-item">
+                        <a href="#" class="lista-link">África</a>
+                    </li>
+                    <li class="lista-item">
+                        <a href="#" class="lista-link">Ásia</a>
+                    </li>
+                    <li class="lista-item">
+                        <a href="#" class="lista-link">Oceania</a>
+                    </li>
+                </ul>
+            
+            <div class="container">
+                <a href="#"><img src="imagem/fav.svg" alt="Meus Favoritos"
+                     class="cabeçalho-imagem"></a>
+                <a href="#"><img src="imagem/perfil.svg" alt="Meu perfil" 
+                    class="cabeçalho-imagem"></a>
+                </a>
+            </div>
+
+            </div>
+        </header>
+
+        <section class="inicio">
+            <h2 class="inicio-titulo">Compartilhando experiências!</h2>
+            <p class="inicio-texto">
+                Sabe aquele lugar que você está planejando em conhecer mas não sabe por onde começar?!
+            </p>
+            <p class="inicio-texto">
+                Ou gostaria de uma ajudinha ou uma opinião?!
+            </p>
+            <p class="inicio-texto">
+                Aqui você não está perdido, primeiro procure pelo seu destino e depois se amarre nos depoimentos. 
+            </p>
+            <p class="inicio-texto">
+                Não deixe de compartilhar a sua viagem também!
+            </p>
+            <input type="search" class="inicio-pesquisa" placeholder="Qual seu destino?">
+        </section>
+
+        <section class="faixa">
+            <h2 class="faixa-titulo">Países mais visitados</h2>
+            <div class="carrossel__container">
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="imagem/alemanha.png" alt="livro"><p class="paises">Alemanha</p></div>
+                    <div class="swiper-slide"><img src="imagem/Argentine.png" alt="livro"><p class="paises">Argentina</p></div>
+                    <div class="swiper-slide"><img src="imagem/Bresil.png" alt="livro"><p class="paises">Brasil</p></div>
+                    <div class="swiper-slide"><img src="imagem/Canada.png" alt="livro"><p class="paises">Canadá</p></div>
+                    <div class="swiper-slide"><img src="imagem/Etats-Unis.png" alt="livro"><p class="paises">Estados Unidos</p></div>
+                    <div class="swiper-slide"><img src="imagem/France.png" alt="livro"><p class="paises">França</p></div>
+                    <div class="swiper-slide"><img src="imagem/Italie.png" alt="livro"><p class="paises">Itália</p></div>
+                    </div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+    
+                <div class="card">
+                    <!--1 linha-->
+                    <div class="card__descrição">
+                        <!-- 1 coluna-->
+                        <div class="descrição">
+                            <h3 class="descrição__titulo">Talvez você se interesse por visitar...</h3>
+                            <h2 class="descrição__titulo-livro">Bali - Indonésia</h2>
+                            <p class="descrição__titulo-livro">30/12/2019</p>
+                            <p class="descrição__titulo-livro">Nota 9</p>
+                        </div>
+                        <!--2 coluna-->
+                        <img src="imagem/bali.jpg" class="descrição__imagem">
+                    </div>
+                    <p class="descrição__texto">Lugar maravilhoso, preços não muito caro, 
+                        cultura muito diferente e tem de tudo, porém sempre é muito calor,
+                         já se prepare para enfrentar uma temperatura de 30°-40°C já pela manhã hahah.</p>
+                </div>
+                </div>
+        </section>
+
+        <section class="faixa">
+            <h2 class="faixa-titulo">Sugestões e depoimentos</h2>
+            <div class="carrossel__container">
+    
+                <div class="card">
+                    <!--1 linha-->
+                    <div class="card__descrição">
+                        <!-- 1 coluna-->
+                        <div class="descrição">
+                            <h3 class="descrição__titulo"></h3>
+                            <h2 class="descrição__titulo-livro">Uruguai</h2>
+                            <p class="descrição__titulo-livro">05/02/2022</p>
+                            <p class="descrição__titulo-livro">Nota 10</p>
+                        </div>
+                        <!--2 coluna-->
+                        <img src="imagem/Uruguay.png" class="imagem">
+                    </div>
+                    <p class="descrição__texto">Cidade de Montevidéu muito gostosa de passear, preços um pouco caro
+                        mas cidade muito bonita e limpa
+                    </p>
+                </div>
+                </div>
+
+                <div class="carrossel__container">
+    
+                    <div class="card">
+                        <!--1 linha-->
+                        <div class="card__descrição">
+                            <!-- 1 coluna-->
+                            <div class="descrição">
+                                <h3 class="descrição__titulo"></h3>
+                                <h2 class="descrição__titulo-livro">Disney - Estados Unidos</h2>
+                                <p class="descrição__titulo-livro">07/05/2021</p>
+                                <p class="descrição__titulo-livro">Nota 7</p>
+                            </div>
+                            <!--2 coluna-->
+                            <img src="imagem/parque.png" class="imagem">
+                        </div>
+                        <p class="descrição__texto">Parque realmente de se apaixonar, porém muito caro e muitas filas</p>
+                    </div>
+                    </div>
+
+                    <div class="carrossel__container">
+    
+                        <div class="card">
+                            <!--1 linha-->
+                            <div class="card__descrição">
+                                <!-- 1 coluna-->
+                                <div class="descrição">
+                                    <h3 class="descrição__titulo"></h3>
+                                    <h2 class="descrição__titulo-livro">Milão - Itália</h2>
+                                    <p class="descrição__titulo-livro">25/12/2021</p>
+                                    <p class="descrição__titulo-livro">Nota 9</p>
+                                </div>
+                                <!--2 coluna-->
+                                <img src="imagem/Italie.png" class="imagem">
+                            </div>
+                            <p class="descrição__texto">Cidade muito divertida e comida muito boa!</p>
+                        </div>
+                        </div>
+        </section>
+
+
+        <section class="banner">
+            <h2 class="banner-titulo">Compartilhe sua experiência também!</h2>
+            <input type="text" class="banner-caixa" placeholder="Digite o nome do lugar">
+            <input type="date" class="banner-caixa" placeholder="Quando?">
+            <input type="number" class="banner-caixa" placeholder="Qual sua nota para esse lugar?">
+            <input type="image" class="banner-caixa" placeholder="Insira sua fotos">
+            <textarea cols="40" wrap="hard" class="banner-area" placeholder="Conte com mais detalhes sua viagem, por exemplo, o que mais gostou, dicas, valores..."></textarea>
+            <button class="banner-botão">Compartilhar</button>
+        </section>
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>  
+        <script> const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },});
+        </script>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+.inicio{
+    font-family: var(--fonte-principal);
+    background: var(--azul-degrade);
+    color: var(--branco);
+    text-align: center;
+    padding: 1em;
+}
+.inicio-titulo{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0.5em 0 1em 0;
+
+}
+.inicio-texto{
+    font-size: 14px;
+    padding: 0.5em 0;
+}
+.inicio-pesquisa{
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    border: 2px solid var(--branco);
+    border-radius: 24px;
+    margin: 1em;
+    padding: 1em;
+    color: var(--preto);
+}
+.inicio-pesquisa::placeholder{
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    text-align: end;
+    color: var(--preto);
+    background: url("../imagem/pin.png") no-repeat;
+    background-size: 22px;
+
+
+}

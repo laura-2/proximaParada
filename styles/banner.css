@@ -1,0 +1,73 @@
+.banner{
+    background: var(--azul-degrade);
+    text-align: center;
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    padding: 0.5em;
+}
+.banner-titulo{
+    padding: 0.5em;
+    font-size: 18px;
+    color: var(--laranja);
+}
+
+.banner-caixa{
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    font-weight: 100;
+    display: block;
+    background-color: transparent;
+    border: 2px solid var(--branco);
+    border-radius: 24px;
+    padding: 1em;
+    margin: 1.5em 3.5em;
+    width: 70%;
+    color: var(--branco);
+
+}
+.caixa-paises{
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    font-weight: 100;
+    display: block;
+    background-color: transparent;
+    border: 2px solid var(--branco);
+    border-radius: 24px;
+    padding: 1em;
+    margin: 1.5em 4.6em;
+    width: 70%;
+    color: var(--branco);
+
+}
+
+.banner-caixa::placeholder{
+    background: transparent;
+    color: var(--branco);
+}
+.banner-area{
+    font-family: var(--fonte-principal);
+    font-weight: 100;
+    display: block;
+    background-color: transparent;
+    border: 2px solid var(--branco);
+    border-radius: 24px;
+    width: 80%;
+    height: 120px;
+    padding: 1em;
+    margin: 1.5em;
+    color: var(--branco);
+
+}
+.banner-area::placeholder{
+    background: transparent;
+    color: var(--branco);
+}
+.banner-botão{
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    background: var(--laranja);
+    padding: 1em;
+    border: 1px solid var(--laranja);
+    border-radius: 20px;
+    text-transform: uppercase;
+}

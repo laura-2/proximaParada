@@ -1,0 +1,9 @@
+.faixa-titulo{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    background-color: var(--branco);
+    color: var(--laranja);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 1em 0 0.2em 0;
+}
