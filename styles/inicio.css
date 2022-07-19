@@ -16,6 +16,7 @@
     padding: 0.5em 0;
 }
 .inicio-pesquisa{
+    width: 70%;
     font-family: var(--fonte-principal);
     font-size: 15px;
     border: 2px solid var(--branco);
@@ -27,7 +28,7 @@
 .inicio-pesquisa::placeholder{
     font-family: var(--fonte-principal);
     font-size: 15px;
-    text-align: end;
+    text-align: center;
     color: var(--preto);
     background: url("../imagem/pin.png") no-repeat;
     background-size: 22px;
