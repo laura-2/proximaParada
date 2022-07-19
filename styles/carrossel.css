@@ -57,5 +57,7 @@
 }
 .imagem{
     width: 220px;
-    padding: 2em;
+}
+.imagem-disney{
+    width: auto;
 }
